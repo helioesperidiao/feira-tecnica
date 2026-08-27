@@ -275,7 +275,7 @@ module.exports = class Server {
         const method = 'Server.run';
         this.#app.listen(this.#porta, () => {
             logger.info(`🚀 ${method} - Servidor rodando em http://localhost:${this.#porta}/index.html`);
-            console.log(`🚀 Server rodando em http://localhost:${this.#porta}/index.html`);
+            console.log(`🚀 Server rodando em http://localhost/feira-tecnica/index.html`);
         });
     };
 };

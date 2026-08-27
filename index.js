@@ -33,7 +33,7 @@ const logger = require("./src/api/utils/Logger");
         server.run();
 
         logger.info(`✅ ${method} - Servidor iniciado com sucesso!`);
-        logger.info(`🌐 ${method} - Acesse http://localhost:8080/Login.html`);
+        logger.info(`🌐 ${method} - Acesse http://localhost/feira-tecnica/Login.html`);
 
     } catch (error) {
         // Registra o erro com detalhes completos
