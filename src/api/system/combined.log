@@ -278,3 +278,98 @@
 {"error":{"message":"O campo 'idCargo' deve ser um número inteiro positivo"},"httpCode":400,"level":"error","message":"Erro na validação de dados","name":"ErrorResponse","stack":"ErrorResponse: Erro na validação de dados\n    at validateCreateBody (D:\\professor\\2026\\cti\\feira-tecnica\\src\\api\\middleware\\FuncionarioMiddleware.js:97:19)\n    at Layer.handle [as handle_request] (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at validateToken (D:\\professor\\2026\\cti\\feira-tecnica\\src\\api\\middleware\\JwtMiddleware.js:67:13)\n    at Layer.handle [as handle_request] (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\professor\\2026\\cti\\feira-tecnica\\node_modules\\express\\lib\\router\\index.js:346:12)","timestamp":"2026-08-26 17:59:10"}
 {"error":{"message":"O campo 'idCargo' deve ser um número inteiro positivo"},"httpCode":400,"level":"warn","message":"Erro na validação de dados","method":"POST","timestamp":"2026-08-26 17:59:10","url":"/api/v1/funcionarios"}
 {"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-26 17:59:16"}
+{"level":"info","message":"🚀 Main - Iniciando aplicação","timestamp":"2026-08-27 12:41:21"}
+{"level":"info","message":"⬆️ Server.constructor()","timestamp":"2026-08-27 12:41:21"}
+{"level":"info","message":"⬆️ Server.init - Iniciando servidor","timestamp":"2026-08-27 12:41:21"}
+{"database":"feira-tecnica2026","hasAuth":false,"host":"localhost","level":"info","message":"⬆️ MongoDatabase.constructor - Instância criada","port":27017,"timestamp":"2026-08-27 12:41:21"}
+{"database":"feira-tecnica2026","host":"localhost","level":"info","message":"✅ MongoDatabase.connect - Conectado ao MongoDB com sucesso!","port":27017,"timestamp":"2026-08-27 12:41:22"}
+{"level":"info","message":"✅ Server.init - Conectado ao MongoDB com sucesso","timestamp":"2026-08-27 12:41:22"}
+{"level":"info","message":"🌱 Server.#seedDatabase - Inserindo cargos iniciais...","timestamp":"2026-08-27 12:41:22"}
+{"level":"info","message":"🌱 Server.#seedDatabase - Inserindo funcionários iniciais...","timestamp":"2026-08-27 12:41:22"}
+{"level":"info","message":"✅ Server.#seedDatabase - Seed concluída com sucesso!","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ Server.setupCargo - Configurando módulo Cargo","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ CargoDAOMongo.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ CargoService.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ CargoControl.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ CargoRoteador.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ CargoRoteador.createRoutes - Configurando rotas da entidade Cargo","timestamp":"2026-08-27 12:41:23"}
+{"basePath":"/api/v1/cargos","level":"info","message":"✅ CargoRoteador.createRoutes - Todas as rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:41:23","totalRoutes":5}
+{"level":"info","message":"✅ Server.setupCargo - Rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ Server.setupFuncionario - Configurando módulo Funcionario","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ FuncionarioDAOMongo.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ FuncionarioService.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ FuncionarioControl.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.constructor()","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.createRoutes - Configurando rotas da entidade Funcionario","timestamp":"2026-08-27 12:41:23"}
+{"basePath":"/api/v1/funcionarios","level":"info","message":"✅ FuncionarioRoteador.createRoutes - Todas as rotas de Funcionario configuradas com sucesso","protectedRoutes":["POST /","PUT /:idFuncionario","DELETE /:idFuncionario","GET /","GET /:idFuncionario"],"publicRoutes":["POST /login"],"timestamp":"2026-08-27 12:41:23","totalRoutes":6}
+{"level":"info","message":"✅ Server.setupFuncionario - Rotas de Funcionario configuradas com sucesso","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"⬆️ Server.setupErrorMiddleware - Configurando middleware de tratamento de erros","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"✅ Server.init - Servidor inicializado com sucesso","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"✅ Main - Servidor iniciado com sucesso!","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 12:41:23"}
+{"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 12:44:59"}
+{"level":"info","message":"🚀 Main - Iniciando aplicação","timestamp":"2026-08-27 12:45:04"}
+{"level":"info","message":"⬆️ Server.constructor()","timestamp":"2026-08-27 12:45:04"}
+{"level":"info","message":"⬆️ Server.init - Iniciando servidor","timestamp":"2026-08-27 12:45:04"}
+{"database":"feira-tecnica2026","hasAuth":false,"host":"localhost","level":"info","message":"⬆️ MongoDatabase.constructor - Instância criada","port":27017,"timestamp":"2026-08-27 12:45:04"}
+{"database":"feira-tecnica2026","host":"localhost","level":"info","message":"✅ MongoDatabase.connect - Conectado ao MongoDB com sucesso!","port":27017,"timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"✅ Server.init - Conectado ao MongoDB com sucesso","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"✅ Server.#seedDatabase - Cargos já existentes, seed não executada.","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ Server.setupCargo - Configurando módulo Cargo","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ CargoDAOMongo.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ CargoService.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ CargoControl.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ CargoRoteador.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ CargoRoteador.createRoutes - Configurando rotas da entidade Cargo","timestamp":"2026-08-27 12:45:05"}
+{"basePath":"/api/v1/cargos","level":"info","message":"✅ CargoRoteador.createRoutes - Todas as rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:45:05","totalRoutes":5}
+{"level":"info","message":"✅ Server.setupCargo - Rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ Server.setupFuncionario - Configurando módulo Funcionario","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ FuncionarioDAOMongo.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ FuncionarioService.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ FuncionarioControl.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.constructor()","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.createRoutes - Configurando rotas da entidade Funcionario","timestamp":"2026-08-27 12:45:05"}
+{"basePath":"/api/v1/funcionarios","level":"info","message":"✅ FuncionarioRoteador.createRoutes - Todas as rotas de Funcionario configuradas com sucesso","protectedRoutes":["POST /","PUT /:idFuncionario","DELETE /:idFuncionario","GET /","GET /:idFuncionario"],"publicRoutes":["POST /login"],"timestamp":"2026-08-27 12:45:05","totalRoutes":6}
+{"level":"info","message":"✅ Server.setupFuncionario - Rotas de Funcionario configuradas com sucesso","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"⬆️ Server.setupErrorMiddleware - Configurando middleware de tratamento de erros","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"✅ Server.init - Servidor inicializado com sucesso","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"✅ Main - Servidor iniciado com sucesso!","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 12:45:05"}
+{"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 12:45:05"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 12:52:01","type":"JWT"}
+{"level":"warn","message":"⚠️ MeuTokenJWT.validarToken - Token não fornecido","timestamp":"2026-08-27 12:52:01"}
+{"error":"Token não fornecido","hasToken":false,"ip":"::1","level":"warn","message":"⚠️ JwtMiddleware.validateToken - Token inválido ou expirado","method":"GET","timestamp":"2026-08-27 12:52:01","url":"/api/v1/funcionarios/login"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 12:57:10","type":"JWT"}
+{"level":"warn","message":"⚠️ MeuTokenJWT.validarToken - Token não fornecido","timestamp":"2026-08-27 12:57:10"}
+{"error":"Token não fornecido","hasToken":false,"ip":"::1","level":"warn","message":"⚠️ JwtMiddleware.validateToken - Token inválido ou expirado","method":"GET","timestamp":"2026-08-27 12:57:10","url":"/api/v1/funcionarios/login"}
+{"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 12:58:41"}
+{"level":"info","message":"🚀 Main - Iniciando aplicação","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ Server.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ Server.init - Iniciando servidor","timestamp":"2026-08-27 12:58:49"}
+{"database":"feira-tecnica2026","hasAuth":false,"host":"localhost","level":"info","message":"⬆️ MongoDatabase.constructor - Instância criada","port":27017,"timestamp":"2026-08-27 12:58:49"}
+{"database":"feira-tecnica2026","host":"localhost","level":"info","message":"✅ MongoDatabase.connect - Conectado ao MongoDB com sucesso!","port":27017,"timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"✅ Server.init - Conectado ao MongoDB com sucesso","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"✅ Server.#seedDatabase - Cargos já existentes, seed não executada.","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ Server.setupCargo - Configurando módulo Cargo","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ CargoDAOMongo.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ CargoService.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ CargoControl.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ CargoRoteador.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ CargoRoteador.createRoutes - Configurando rotas da entidade Cargo","timestamp":"2026-08-27 12:58:49"}
+{"basePath":"/api/v1/cargos","level":"info","message":"✅ CargoRoteador.createRoutes - Todas as rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:58:49","totalRoutes":5}
+{"level":"info","message":"✅ Server.setupCargo - Rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ Server.setupFuncionario - Configurando módulo Funcionario","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ FuncionarioDAOMongo.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ FuncionarioService.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ FuncionarioControl.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.constructor()","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.createRoutes - Configurando rotas da entidade Funcionario","timestamp":"2026-08-27 12:58:49"}
+{"basePath":"/api/v1/funcionarios","level":"info","message":"✅ FuncionarioRoteador.createRoutes - Todas as rotas de Funcionario configuradas com sucesso","protectedRoutes":["POST /","PUT /:idFuncionario","DELETE /:idFuncionario","GET /","GET /:idFuncionario"],"publicRoutes":["POST /login"],"timestamp":"2026-08-27 12:58:49","totalRoutes":6}
+{"level":"info","message":"✅ Server.setupFuncionario - Rotas de Funcionario configuradas com sucesso","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"⬆️ Server.setupErrorMiddleware - Configurando middleware de tratamento de erros","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"✅ Server.init - Servidor inicializado com sucesso","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"✅ Main - Servidor iniciado com sucesso!","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 12:58:49"}
+{"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 13:00:42"}

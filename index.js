@@ -20,7 +20,7 @@ const logger = require("./src/api/utils/Logger");
 
     try {
         // Cria instância do servidor na porta 8080
-        const server = new Server(8080);
+        const server = new Server(3000);
         logger.debug(`🔍 ${method} - Instância do Server criada`, { porta: 8080 });
 
         // Inicializa o servidor (conexão com DB, middlewares, roteadores)

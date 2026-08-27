@@ -8,9 +8,9 @@
   <!-- Meta tag essencial para responsividade em dispositivos móveis -->
 
   <!-- Importa o Bootstrap para estilização rápida e layout responsivo -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
   
-  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <!-- Estilos adicionais da página -->
   <style>
@@ -169,7 +169,7 @@
 
       try {
         // Chama o endpoint POST da API
-        const resposta = await api.post("/api/v1/cargos", objetoCriar);
+        const resposta = await api.post("/feira-tecnica/api/v1/cargos", objetoCriar);
         console.log("Resposta criação:", resposta);
         
         if (resposta.success) {
@@ -216,7 +216,7 @@
 
       try {
         // Envia atualização via PUT
-        const resposta = await api.put("/api/v1/cargos", id, objetoAtualizar);
+        const resposta = await api.put("/feira-tecnica/api/v1/cargos", id, objetoAtualizar);
         console.log("Resposta atualização:", resposta);
         
         if (resposta.success) {
@@ -257,7 +257,7 @@
       const btnConfirmDelete = document.getElementById("btnConfirmDelete");
       btnConfirmDelete.onclick = async function () {
         try {
-          const resposta = await api.delete("/api/v1/cargos/", id);
+          const resposta = await api.delete("/feira-tecnica/api/v1/cargos/", id);
           console.log("Resposta exclusão:", resposta);
           
           if (resposta && resposta.success) {
@@ -286,7 +286,7 @@
     // -------------------------------------------------------------------------
     async function listAll() {
       try {
-        API_DATA = await api.get("/api/v1/cargos"); // Requisição GET
+        API_DATA = await api.get("/feira-tecnica/api/v1/cargos"); // Requisição GET
         console.log("Dados recebidos:", API_DATA);
 
         if (API_DATA && API_DATA.success == true) {

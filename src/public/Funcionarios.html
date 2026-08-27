@@ -6,9 +6,9 @@
   <title>CRUD Usuários com ApiService</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Inclui o Bootstrap (biblioteca CSS) para deixar a página mais bonita e responsiva -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <style>
     body {
@@ -209,7 +209,7 @@
       };
 
       try {
-        const resposta = await api.post("/api/v1/funcionarios", objetoCriar);
+        const resposta = await api.post("/feira-tecnica/api/v1/funcionarios", objetoCriar);
         console.log("Resposta criação:", resposta);
 
         if (resposta.success) {
@@ -283,7 +283,7 @@
       };
 
       try {
-        const resposta = await api.put("/api/v1/funcionarios", id, objetoAtualizar);
+        const resposta = await api.put("/feira-tecnica/api/v1/funcionarios", id, objetoAtualizar);
         console.log("Resposta atualização:", resposta);
 
         if (resposta.success) {
@@ -323,7 +323,7 @@
 
       newBtnConfirm.onclick = async function () {
         try {
-          const resposta = await api.delete("/api/v1/funcionarios", id);
+          const resposta = await api.delete("/feira-tecnica/api/v1/funcionarios", id);
           console.log("Resposta exclusão:", resposta);
 
           if (resposta && resposta.success) {
@@ -350,7 +350,7 @@
 
     async function listAll() {
       try {
-        API_DATA = await api.get("/api/v1/funcionarios");
+        API_DATA = await api.get("/feira-tecnica/api/v1/funcionarios");
         console.log("Dados recebidos:", API_DATA);
 
         if (API_DATA && API_DATA.success) {
@@ -489,7 +489,7 @@
 
     // Carrega cargos para os selects
     try {
-      const cargos = await api.get("/api/v1/cargos");
+      const cargos = await api.get("/feira-tecnica/api/v1/cargos");
       preencherSelectCargos(cargos);
     } catch (error) {
       console.error("Erro ao carregar cargos:", error);

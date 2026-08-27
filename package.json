@@ -6,8 +6,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "kill-port 3000 & taskkill /IM nginx.exe /F >nul 2>&1 & cd nginx && start \"\" /B nginx.exe && cd .. && nodemon",
+    "build": "tsc",
+    "start": "node index.js"
+
   },
   "author": "Hélio Lourenço Esperidião Ferreira",
   "license": "ISC",
