@@ -373,3 +373,152 @@
 {"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 12:58:49"}
 {"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 12:58:49"}
 {"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 13:00:42"}
+{"level":"info","message":"🚀 Main - Iniciando aplicação","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ Server.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ Server.init - Iniciando servidor","timestamp":"2026-08-27 13:00:45"}
+{"database":"feira-tecnica2026","hasAuth":false,"host":"localhost","level":"info","message":"⬆️ MongoDatabase.constructor - Instância criada","port":27017,"timestamp":"2026-08-27 13:00:45"}
+{"database":"feira-tecnica2026","host":"localhost","level":"info","message":"✅ MongoDatabase.connect - Conectado ao MongoDB com sucesso!","port":27017,"timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"✅ Server.init - Conectado ao MongoDB com sucesso","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"✅ Server.#seedDatabase - Cargos já existentes, seed não executada.","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ Server.setupCargo - Configurando módulo Cargo","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ CargoDAOMongo.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ CargoService.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ CargoControl.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ CargoRoteador.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ CargoRoteador.createRoutes - Configurando rotas da entidade Cargo","timestamp":"2026-08-27 13:00:45"}
+{"basePath":"/api/v1/cargos","level":"info","message":"✅ CargoRoteador.createRoutes - Todas as rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 13:00:45","totalRoutes":5}
+{"level":"info","message":"✅ Server.setupCargo - Rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ Server.setupFuncionario - Configurando módulo Funcionario","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ FuncionarioDAOMongo.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ FuncionarioService.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ FuncionarioControl.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.constructor()","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.createRoutes - Configurando rotas da entidade Funcionario","timestamp":"2026-08-27 13:00:45"}
+{"basePath":"/api/v1/funcionarios","level":"info","message":"✅ FuncionarioRoteador.createRoutes - Todas as rotas de Funcionario configuradas com sucesso","protectedRoutes":["POST /","PUT /:idFuncionario","DELETE /:idFuncionario","GET /","GET /:idFuncionario"],"publicRoutes":["POST /login"],"timestamp":"2026-08-27 13:00:45","totalRoutes":6}
+{"level":"info","message":"✅ Server.setupFuncionario - Rotas de Funcionario configuradas com sucesso","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"⬆️ Server.setupErrorMiddleware - Configurando middleware de tratamento de erros","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"✅ Server.init - Servidor inicializado com sucesso","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"✅ Main - Servidor iniciado com sucesso!","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 13:00:45"}
+{"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 13:00:45"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:00:55","type":"JWT"}
+{"level":"warn","message":"⚠️ MeuTokenJWT.validarToken - Token não fornecido","timestamp":"2026-08-27 13:00:55"}
+{"error":"Token não fornecido","hasToken":false,"ip":"::1","level":"warn","message":"⚠️ JwtMiddleware.validateToken - Token inválido ou expirado","method":"GET","timestamp":"2026-08-27 13:00:55","url":"/api/v1/funcionarios/login"}
+{"email":"helioesperidiao@gmail.com","ip":"::ffff:127.0.0.1","level":"info","message":"🔵 FuncionarioControl.login - Tentativa de login","method":"POST","timestamp":"2026-08-27 13:01:04","url":"/api/v1/funcionarios/login"}
+{"level":"info","message":"🔵 FuncionarioDAOMongo.login - Tentativa de login para helioesperidiao@gmail.com","timestamp":"2026-08-27 13:01:04"}
+{"idFuncionario":null,"level":"info","message":"✅ FuncionarioDAOMongo.login - Login bem-sucedido para helioesperidiao@gmail.com","timestamp":"2026-08-27 13:01:05"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:01:05","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:01:05"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ FuncionarioService.loginFuncionario - Login bem-sucedido","timestamp":"2026-08-27 13:01:05"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ FuncionarioControl.login - Login bem-sucedido","timestamp":"2026-08-27 13:01:05"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:02:46","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:02:46"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:02:46.000Z","jti":"5504fcfc1d0c3b0fa5a67d4ebe86a532","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:02:46"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:02:47","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:02:47","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:02:47"}
+{"level":"info","message":"✅ CargoService.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:02:47"}
+{"level":"info","message":"✅ CargoControl.index - 4 cargos encontrados","timestamp":"2026-08-27 13:02:47"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:10","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:10"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:10.000Z","jti":"2e083c9e4f8a59903677d4547780dd16","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:10"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:10","url":"/api/v1/cargos"}
+{"body":{"cargo":{"nomeCargo":"novooo"}},"level":"info","message":"🔵 CargoControl.store - Iniciando","method":"POST","timestamp":"2026-08-27 13:03:10","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findByField - 0 cargos encontrados para nomeCargo=novooo","timestamp":"2026-08-27 13:03:10"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"✅ CargoDAOMongo.create - Cargo criado com sucesso","nomeCargo":"novooo","timestamp":"2026-08-27 13:03:11"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"✅ CargoService.createCargo - Cargo criado com sucesso","nomeCargo":"novooo","timestamp":"2026-08-27 13:03:11"}
+{"id":"6a905fbf3ae9a0c251d5c878","level":"info","message":"✅ CargoControl.store - Cargo criado com sucesso","timestamp":"2026-08-27 13:03:11"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:11","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:11"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:11.000Z","jti":"856d6469733eab2eb917d8c92cf4cda9","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:11"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:11","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:03:11","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 5 cargos encontrados","timestamp":"2026-08-27 13:03:11"}
+{"level":"info","message":"✅ CargoService.findAll - 5 cargos encontrados","timestamp":"2026-08-27 13:03:11"}
+{"level":"info","message":"✅ CargoControl.index - 5 cargos encontrados","timestamp":"2026-08-27 13:03:11"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:15","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:15"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:15.000Z","jti":"4fb9ee7f42d8504ef91957acc72bae74","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:15"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:15","url":"/api/v1/cargos/6a905fbf3ae9a0c251d5c878"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"🔵 CargoControl.update - Atualizando cargo","nomeCargo":"novooo 2","timestamp":"2026-08-27 13:03:15","url":"/api/v1/cargos/6a905fbf3ae9a0c251d5c878"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"✅ CargoDAOMongo.update - Cargo atualizado com sucesso","novoNome":"novooo 2","timestamp":"2026-08-27 13:03:15"}
+{"level":"info","message":"✅ CargoService.updateCargo - Cargo 6a905fbf3ae9a0c251d5c878 atualizado com sucesso","nomeCargo":"novooo 2","timestamp":"2026-08-27 13:03:15"}
+{"level":"info","message":"✅ CargoControl.update - Cargo 6a905fbf3ae9a0c251d5c878 atualizado com sucesso","timestamp":"2026-08-27 13:03:15"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:15","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:15"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:15.000Z","jti":"06abb6250331e0f684e85bea965211e1","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:15"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:15","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:03:15","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 5 cargos encontrados","timestamp":"2026-08-27 13:03:15"}
+{"level":"info","message":"✅ CargoService.findAll - 5 cargos encontrados","timestamp":"2026-08-27 13:03:15"}
+{"level":"info","message":"✅ CargoControl.index - 5 cargos encontrados","timestamp":"2026-08-27 13:03:15"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:19","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:19"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:19.000Z","jti":"a8ab313f9acca75fbfb96b69718ac821","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:19"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:19","url":"/api/v1/cargos/6a905fbf3ae9a0c251d5c878"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"🔵 CargoControl.destroy - Excluindo cargo","timestamp":"2026-08-27 13:03:19","url":"/api/v1/cargos/6a905fbf3ae9a0c251d5c878"}
+{"idCargo":"6a905fbf3ae9a0c251d5c878","level":"info","message":"✅ CargoDAOMongo.delete - Cargo excluído com sucesso","timestamp":"2026-08-27 13:03:19"}
+{"level":"info","message":"✅ CargoService.deleteCargo - Cargo 6a905fbf3ae9a0c251d5c878 excluído com sucesso","timestamp":"2026-08-27 13:03:19"}
+{"level":"info","message":"✅ CargoControl.destroy - Cargo 6a905fbf3ae9a0c251d5c878 excluído com sucesso","timestamp":"2026-08-27 13:03:19"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:03:19","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:19"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:03:19.000Z","jti":"cb1ce74e7e1dd0363585287cb7845e88","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:03:19"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:03:19","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:03:19","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:03:19"}
+{"level":"info","message":"✅ CargoService.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:03:19"}
+{"level":"info","message":"✅ CargoControl.index - 4 cargos encontrados","timestamp":"2026-08-27 13:03:19"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:04:10","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:04:10"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:04:10.000Z","jti":"fae822eb25776cc39c235f5d1d0f30f1","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:04:10"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:04:10","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:04:10","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:04:10"}
+{"level":"info","message":"✅ CargoService.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:04:10"}
+{"level":"info","message":"✅ CargoControl.index - 4 cargos encontrados","timestamp":"2026-08-27 13:04:10"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:04:10","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:04:10"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:04:10.000Z","jti":"68bd4010421a4e3b1a65dedc4307d76a","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:04:10"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:04:10","url":"/api/v1/funcionarios"}
+{"level":"info","message":"🔵 FuncionarioControl.index - Listando todos os funcionários","method":"GET","timestamp":"2026-08-27 13:04:10","url":"/api/v1/funcionarios"}
+{"level":"info","message":"✅ FuncionarioDAOMongo.findAll - 3 funcionários encontrados","timestamp":"2026-08-27 13:04:10"}
+{"level":"info","message":"✅ FuncionarioService.findAll - 3 funcionários encontrados","timestamp":"2026-08-27 13:04:10"}
+{"level":"info","message":"✅ FuncionarioControl.index - 3 funcionários encontrados","timestamp":"2026-08-27 13:04:10"}
+{"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 13:24:26"}
+{"level":"info","message":"🚀 Main - Iniciando aplicação","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ Server.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ Server.init - Iniciando servidor","timestamp":"2026-08-27 13:25:01"}
+{"database":"feira-tecnica2026","hasAuth":false,"host":"localhost","level":"info","message":"⬆️ MongoDatabase.constructor - Instância criada","port":27017,"timestamp":"2026-08-27 13:25:01"}
+{"database":"feira-tecnica2026","host":"localhost","level":"info","message":"✅ MongoDatabase.connect - Conectado ao MongoDB com sucesso!","port":27017,"timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"✅ Server.init - Conectado ao MongoDB com sucesso","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"✅ Server.#seedDatabase - Cargos já existentes, seed não executada.","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ Server.setupCargo - Configurando módulo Cargo","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ CargoDAOMongo.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ CargoService.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ CargoControl.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ CargoRoteador.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ CargoRoteador.createRoutes - Configurando rotas da entidade Cargo","timestamp":"2026-08-27 13:25:01"}
+{"basePath":"/api/v1/cargos","level":"info","message":"✅ CargoRoteador.createRoutes - Todas as rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 13:25:01","totalRoutes":5}
+{"level":"info","message":"✅ Server.setupCargo - Rotas de Cargo configuradas com sucesso","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ Server.setupFuncionario - Configurando módulo Funcionario","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ FuncionarioDAOMongo.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ FuncionarioService.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ FuncionarioControl.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.constructor()","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ FuncionarioRoteador.createRoutes - Configurando rotas da entidade Funcionario","timestamp":"2026-08-27 13:25:01"}
+{"basePath":"/api/v1/funcionarios","level":"info","message":"✅ FuncionarioRoteador.createRoutes - Todas as rotas de Funcionario configuradas com sucesso","protectedRoutes":["POST /","PUT /:idFuncionario","DELETE /:idFuncionario","GET /","GET /:idFuncionario"],"publicRoutes":["POST /login"],"timestamp":"2026-08-27 13:25:01","totalRoutes":6}
+{"level":"info","message":"✅ Server.setupFuncionario - Rotas de Funcionario configuradas com sucesso","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"⬆️ Server.setupErrorMiddleware - Configurando middleware de tratamento de erros","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"✅ Server.init - Servidor inicializado com sucesso","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"✅ Main - Servidor iniciado com sucesso!","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"🌐 Main - Acesse http://localhost:8080/Login.html","timestamp":"2026-08-27 13:25:01"}
+{"level":"info","message":"🚀 Server.run - Servidor rodando em http://localhost:3000/index.html","timestamp":"2026-08-27 13:25:01"}
+{"alg":"HS256","aud":"http://localhost","duracaoToken":5184000,"iss":"http://localhost","level":"info","message":"⬆️ MeuTokenJWT.constructor - Instância criada","sub":"acesso_sistema","timestamp":"2026-08-27 13:25:32","type":"JWT"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:01:05.000Z","idFuncionario":null,"jti":"789da51e66ca5eee3d317e8d9cfbecc2","level":"info","message":"✅ MeuTokenJWT.validarToken - Token válido","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:25:32"}
+{"email":"helioesperidiao@gmail.com","expiracao":"2026-10-26T16:25:32.000Z","jti":"a68fcfae15bf687cf2d7624ea91d188f","level":"info","message":"✅ MeuTokenJWT.gerarToken - Token gerado com sucesso","timestamp":"2026-08-27 13:25:32"}
+{"email":"helioesperidiao@gmail.com","idFuncionario":null,"level":"info","message":"✅ JwtMiddleware.validateToken - Token válido - renovado com sucesso","name":"Hélio","role":"Administrador","timestamp":"2026-08-27 13:25:32","url":"/api/v1/cargos"}
+{"level":"info","message":"🔵 CargoControl.index - Listando todos os cargos","method":"GET","timestamp":"2026-08-27 13:25:32","url":"/api/v1/cargos"}
+{"level":"info","message":"✅ CargoDAOMongo.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:25:32"}
+{"level":"info","message":"✅ CargoService.findAll - 4 cargos encontrados","timestamp":"2026-08-27 13:25:32"}
+{"level":"info","message":"✅ CargoControl.index - 4 cargos encontrados","timestamp":"2026-08-27 13:25:32"}
+{"level":"info","message":"🛑 Recebido SIGINT - Encerrando aplicação...","timestamp":"2026-08-27 13:25:55"}
